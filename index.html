@@ -1,42 +1,60 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Page Title</title>
+        <title>Portfolio online Diego</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     </head>
 
+
+
     <body>
+        
         <header>
-            <div><img src="/img/aplogo.png" style="width: 500px;height: 500px;" alt="Logo de Argentina Programa"/></div>
-            <div><img src="/img/banner.png" style="width: 400px;height: 200px;" alt="Mi banner personal"/></div>
-            <div id="logo">HTML</div>
-            <nav>  
-                <ul>
-                    <li><a href="/">Home</a>
-                    <li><a href="/link">Page</a>
-                </ul>
-            </nav>
+            <div class="container">
+                <div class="row">
+                    <div class="col"><img id="logo" style="height: 100px;width:500px ;" src="img/aplogo.png" alt="Logo de Argentina Programa"> </div>
+                    <div class="col"><img src="img/banner.png" alt="Mi banner personal"></div>
+                    
+                </div>
+            </div>                                    
         </header>
-            <main role="main">
-                <article>
-                    <h2>Title 1</h2>
-                    <p>Content 1</p>
-                </article>
-                <article>
-                    <h2>Title 2</h2>
-                    <p>Content 2</p>
-                </article>
-            </main>
-            <section>
-            A group of related content
-            </section>
-            <aside>
-            Sidebar
-            </aside>
-            <footer>
-                <p>&copy; HTML CheatSheet</p>
-                <address>
-                Contact <a href="mailto:me@htmlg.com">me</a>
-                </address>
-            </footer>          
+
+
+        <main role="main">
+            <article>
+                <div class="container">
+                    <div class="row">
+                        <div class="col"><h2>Acerca de...</h2></div>
+                            <div class="row">
+                                <div class="col"><h3>Diego</h3></div>
+                            </div>
+                            <div class="row">
+                                <div class="col"><h3>Full Stack Dev. Jr.</h3></div>
+                            </div>                        
+                    </div>
+                </div>   
+            </article>
+            <article>
+                <h2>Title 2</h2>
+                <p>Content 2</p>
+            </article>
+        </main>
+        
+        
+        <section>
+        A group of related content
+        </section>
+        <aside>
+        Sidebar
+        </aside>
+        <footer>
+            <p>&copy; HTML CheatSheet</p>
+            <address>
+            Contact <a href="mailto:me@htmlg.com">me</a>
+            </address>
+        </footer>          
+    
     </body>
 </html> 
